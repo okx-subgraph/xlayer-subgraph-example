@@ -1,0 +1,24 @@
+type Faucet @entity {
+    id: ID!
+    orderID: String
+    receiver: String
+    amount: String
+    createdAtBlockNumber: BigInt!
+}
+
+type Block @entity {
+  id: ID!
+  parentHash: Bytes!
+  unclesHash: Bytes!
+  author: Bytes!
+  stateRoot: Bytes!
+  transactionsRoot: Bytes!
+  receiptsRoot: Bytes!
+  number: BigInt!
+  gasUsed: BigInt!
+  gasLimit: BigInt!
+  timestamp: BigInt!
+  difficulty: BigInt!
+  totalDifficulty: BigInt!
+  size: BigInt
+}
