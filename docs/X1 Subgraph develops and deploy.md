@@ -343,9 +343,12 @@ query GetInfo {
 Using Graph Explorer will help you query data more easily
 
 1. Click "Explorer" in the upper left corner to expand
+<img src="https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/images/Explorer.jpg">
 2. Select the query entity and filter
+<img src="https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/images/Filter.jpg">
 3. Click this button to get results
-
+<img src="https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/images/GetResult.jpg">
+  
 Query from the application can refer to: https://thegraph.com/docs/zh/querying/querying-from-an-application/
 
 # FAQ
