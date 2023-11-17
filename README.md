@@ -20,7 +20,6 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 Here's an example to help you get started with the X1 Graph. For more development details, please refer to [X1 Subgraph Development and Deployment](https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/X1%20Subgraph%20develops%20and%20deploy.md).
 
 We will notify you once the subgraph is successfully deployed, and you can check your subgraph data at the following links:
-
-Query URL: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>
-Query Playground: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>/graphql
-Please replace <Subgraph_name> in the examples with your own subgraph name.
+> Query URL: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>  
+> Query Playground: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>/graphql
+> Please replace <Subgraph_name> in the examples with your own subgraph name.
