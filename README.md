@@ -21,5 +21,5 @@ Here's an example to help you get started with the X1 Graph. For more developmen
 
 We will notify you once the subgraph is successfully deployed, and you can check your subgraph data at the following links:
 > Query URL: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>  
-> Query Playground: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>/graphql
+> Query Playground: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>/graphql  
 > Please replace <Subgraph_name> in the examples with your own subgraph name.
