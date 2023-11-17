@@ -228,8 +228,8 @@ X1 team will help you with the deployment.
 
 After deploying the subgraph, it takes some time to synchronize the block height before querying becomes possible:
 
-- Query URL ：https://www.okx.com/api/v1/x1-testnet/subgraph/name/<Subgraph_name>
-- Query Playground：https://www.okx.com/api/v1/x1-testnet/subgraph/name/<Subgraph_name>/graphql
+- Query URL ：https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>
+- Query Playground：https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>/graphql
 
 Please replace `<Subgraph_name>` in the example with your own Subgraph name
 
