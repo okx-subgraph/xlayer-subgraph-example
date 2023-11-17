@@ -20,7 +20,7 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 
 Before developing subgraph code, you must install the [**Graph CLI**](https://github.com/graphprotocol/graph-cli) in order to build and deploy subgraphs. (Please specify version 0.20.1)
 
-```Solidity
+```TypeScript
 yarn global add @graphprotocol/graph-cli@0.20.1
 or
 npm install -g @graphprotocol/graph-cli@0.20.1
@@ -41,7 +41,7 @@ The subgraph manifest subgraph.yaml defines the smart contracts your subgraph in
 
 For example subgraph, `subgraph.yaml` is:
 
-```Solidity
+```TypeScript
 specVersion: 0.0.4
 description: Indexing Block data
 repository: https://github.com/okx-subgraph/x1-subgraph-example
@@ -110,7 +110,7 @@ With The Graph, you define entity types in schema.graphql, and Graph Node will g
 
 The following `Faucet` entities are built around Gravatar objects and are a good example of how to define an entity.
 
-```Solidity
+```TypeScript
 type Faucet @entity {
     id: ID!
     orderID: String
@@ -124,7 +124,7 @@ type Faucet @entity {
 
 Entity fields can be defined as required or optional. Required fields are indicated by the `!` in the schema. If a required field is not set in the mapping, you will receive this error when querying the field:
 
-```Solidity
+```TypeScript
 Null value resolved for non-null field 'name'
 ```
 
@@ -140,7 +140,7 @@ For each event handler defined in subgraph.yaml under mapping.event Handlers, an
 
 In the example subdiagram, the src/mapping.ts contains handlers for the NewGravatar and UpdateGravatar events:
 
-```Solidity
+```TypeScript
 import { log,ethereum } from '@graphprotocol/graph-ts'
 import { Faucet,Block } from '../types/schema'
 import { SendToken } from '../types/Submit/Faucet'
@@ -173,13 +173,13 @@ In order to make it easy and type-safe to work with smart contracts, events and 
 
 This is done with：
 
-```Solidity
+```TypeScript
 graph codegen [--output-dir <OUTPUT_DIR>] [<MANIFEST>]
 ```
 
 But in most cases, subgraphs have been pre-configured with `package.json `that allow you to simply run one of the following for the same purpose:
 
-```Solidity
+```TypeScript
 # Yarn
 yarn codegen
 
@@ -191,7 +191,7 @@ This will create an AssemblyScript class for each smart contract in the ABI file
 
 Additionally, a class is created for every entity type in the GraphQL schema of the subgraph. These classes offer type-safe entity loading, read and write access to entity fields, and a `save()` method for writing to the entity to be stored. All entity classes are written to `<OUTPUT_DIR>/schema.ts`, enabling mappings to import them:
 
-```Solidity
+```TypeScript
 import { Faucet,Block } from '../types/schema'
 ```
 
@@ -235,7 +235,7 @@ Please replace `<Subgraph_name>` in the example with your own Subgraph name
 
 ## Specification definition of GraphQL language
 
-```JSON
+```GraphQL
 query [operationName]([variableName]: [variableType]) {
   [queryName]([argumentName]: [variableName]) {
     # "{ ... }" express a Selection-Set, we are querying fields from `queryName`.
@@ -262,7 +262,7 @@ Unlike REST API, a GraphQL API is built upon a Schema that defines which queries
 
 For example, a query to get a block using the `GetBlocks` query will look as follows:
 
-```JSON
+```GraphQL
 query GetBlocks($id: ID!) {
   blocks(id: $id) {
     id
@@ -296,7 +296,7 @@ It will return the following predictable JSON response ( *when passing the corre
 
 example:
 
-```JSON
+```GraphQL
 query GetBlocks {
   blocks(
     first: 10
@@ -318,7 +318,7 @@ For more features (such as time-travel queries, fulltext search queries), please
 
 Your application may need to query data for multiple entities, and you can send multiple queries in the same GraphQL request as follows:
 
-```JSON
+```GraphQL
 query GetInfo {
   blocks(
     first: 10
