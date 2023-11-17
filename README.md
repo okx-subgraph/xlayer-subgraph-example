@@ -17,4 +17,4 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 | Way of contacting you (please provide Telegram/Discord contact information.) | @x1testproject                              |
 | Expected subgraph name                                       | x1testproject-statistics-v1                 |
 
-Here's an example to help you get started with XOne Graph.If you want more development details, please refer to  [https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/X1 Subgraph develops and deploy.md](https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/X1 Subgraph develops and deploy.md)
+Here's an example to help you get started with XOne Graph.If you want more development details, please refer to https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/X1%20Subgraph%20develops%20and%20deploy.md
