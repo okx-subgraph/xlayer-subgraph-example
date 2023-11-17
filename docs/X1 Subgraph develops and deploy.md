@@ -35,9 +35,7 @@ A subgraph extracts data from a blockchain, processes it, and stores it for easy
 
 ## **The Subgraph Manifest**
 
-The subgraph manifest subgraph.yaml defines the smart contracts your subgraph indexes, which events from these contracts to pay attention to, and how to map event data to entities that graph node stores and allows to query. The full specification for subgraph manifests can be found [**here**]
-
-(https://github.com/graphprotocol/graph-node/blob/master/docs/subgraph-manifest.md).
+The subgraph manifest subgraph.yaml defines the smart contracts your subgraph indexes, which events from these contracts to pay attention to, and how to map event data to entities that graph node stores and allows to query. The full specification for subgraph manifests can be found [**here**](https://github.com/graphprotocol/graph-node/blob/master/docs/subgraph-manifest.md).
 
 For example subgraph, `subgraph.yaml` is:
 
