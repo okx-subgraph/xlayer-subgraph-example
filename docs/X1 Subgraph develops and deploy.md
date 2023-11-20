@@ -338,7 +338,7 @@ query GetInfo {
 
 ## Graph Explorer
 
-Using Graph Explorer will help you query data more easily.Take [x1-faucet-subgraph](https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/x1-test-faucet/graphql) as an example
+Using Graph Explorer will help you query data more easily.Take [X1-faucet-subgraph](https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/x1-test-faucet/graphql) as an example
 
 1. Click "Explorer" in the upper left corner to expand
 <img src="https://github.com/okx-subgraph/x1-subgraph-example/blob/main/docs/images/Explorer.jpg">
