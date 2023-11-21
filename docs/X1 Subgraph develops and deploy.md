@@ -20,7 +20,7 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 
 Before developing subgraph code, you must install the [**Graph CLI**](https://github.com/graphprotocol/graph-cli) in order to build and deploy subgraphs. (Please specify version 0.20.1)
 
-```TypeScript
+```Shell
 yarn global add @graphprotocol/graph-cli@0.20.1
 or
 npm install -g @graphprotocol/graph-cli@0.20.1
@@ -39,7 +39,7 @@ The subgraph manifest subgraph.yaml defines the smart contracts your subgraph in
 
 For example subgraph, `subgraph.yaml` is:
 
-```TypeScript
+```YAML
 specVersion: 0.0.4
 description: Indexing Block data
 repository: https://github.com/okx-subgraph/x1-subgraph-example
@@ -122,7 +122,7 @@ type Faucet @entity {
 
 Entity fields can be defined as required or optional. Required fields are indicated by the `!` in the schema. If a required field is not set in the mapping, you will receive this error when querying the field:
 
-```TypeScript
+```Plain Text
 Null value resolved for non-null field 'name'
 ```
 
@@ -171,13 +171,13 @@ In order to make it easy and type-safe to work with smart contracts, events and 
 
 This is done with：
 
-```TypeScript
+```Shell
 graph codegen [--output-dir <OUTPUT_DIR>] [<MANIFEST>]
 ```
 
 But in most cases, subgraphs have been pre-configured with `package.json `that allow you to simply run one of the following for the same purpose:
 
-```TypeScript
+```Shell
 # Yarn
 yarn codegen
 
