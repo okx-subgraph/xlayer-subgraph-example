@@ -4,9 +4,9 @@ import { SendToken } from '../types/Submit/Faucet'
 
 export function handleSendToken(event: SendToken): void {
     let faucet = new Faucet(event.transaction.hash.toHexString() + "-" + event.logIndex.toString());
-    faucet.orderID = event.params.orderID.toHexString()
-    faucet.amount = event.params.amount.toHexString()
-    faucet.receiver = event.params.receiver.toHexString()
+    faucet.orderID = event.params.orderID.toString()
+    faucet.amount = event.params.amount.toString()
+    faucet.receiver = event.params.receiver.toString()
     faucet.createdAtBlockNumber = event.block.number
     faucet.save();
 }

@@ -1,12 +1,12 @@
 {
-  "name": "okc-subgraph-example",
+  "name": "x1-subgraph-example",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "remove": "graph remove x1-test --node http://10.2.8.150:7018",
-    "create": "graph create x1-test --node http://10.2.8.150:7018",
-    "deploy": "graph deploy x1-test --ipfs http://10.2.6.99:7027 --node http://10.2.8.150:7018"
+    "remove": "graph remove x1-test --node http://127.0.0.1:7018",
+    "create": "graph create x1-test --node http://127.0.0.1:7018",
+    "deploy": "graph deploy x1-test --ipfs http://127.0.0.1:7027 --node http://127.0.0.1:7018"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
