@@ -11,7 +11,7 @@ The Xlayer testnet currently provides a **beta version** of the Subgraph **Hoste
 | Official website (if any)                                    | https://github.com/xlayertestproject            |
 | Github (if any)                                              |                                             |
 | Type of project                                              | DeFi，GameFi，NFT...                        |
-| Introduction to project                                      | x1testproject is an AMM swap                |
+| Introduction to project                                      | xlayertestproject is an AMM swap                |
 | Uses of the Subgraph service                                 | Query business data and present it to users |
 | Special requirements for Subgraph services (e.g., QPS, please specify if any) | QPS > 100                                   |
 | Way of contacting you (please provide Telegram/Discord contact information.) | @x1testproject                              |
