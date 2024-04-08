@@ -1,4 +1,4 @@
-# x1-subgraph-example
+# xlayer-subgraph-example
 ## **Quick start**
 
 This guide will show you how to quickly initialize, create, and deploy your subgraph with X1's Subgraph service. By deploying the subgraph, you can explore the subgraph GraphQL API by issuing queries and viewing the schema.
@@ -7,8 +7,8 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 
 | **Information**                                              | **Sample**                                  |
 | ------------------------------------------------------------ | ------------------------------------------- |
-| Name of project                                              | X1 Test Project                             |
-| Official website (if any)                                    | https://github.com/x1testproject            |
+| Name of project                                              | Xlayer Test Project                             |
+| Official website (if any)                                    | https://github.com/xlayertestproject            |
 | Github (if any)                                              |                                             |
 | Type of project                                              | DeFi，GameFi，NFT...                        |
 | Introduction to project                                      | x1testproject is an AMM swap                |
@@ -17,7 +17,7 @@ The X1 testnet currently provides a **beta version** of the Subgraph **Hosted Se
 | Way of contacting you (please provide Telegram/Discord contact information.) | @x1testproject                              |
 | Expected subgraph name                                       | x1testproject-statistics-v1                 |
 
-Here's an example to help you get started with the X1 Graph. For more development details, please refer to https://github.com/okx-subgraph/x1-subgraph-example/tree/main/docs.
+Here's an example to help you get started with the X1 Graph. For more development details, please refer to https://github.com/okx-subgraph/xlayer-subgraph-example/tree/main/docs.
 
 We will notify you once the subgraph is successfully deployed, and you can check your subgraph data at the following links:
 > Query URL: https://www.okx.com/api/v1/x1-testnet/index/subgraphs/name/<Subgraph_name>  
